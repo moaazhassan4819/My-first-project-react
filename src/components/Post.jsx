@@ -1,5 +1,3 @@
-// src/components/Post.jsx
-
 import React from "react";
 
 const Post = ({ name, text, img }) => {
@@ -10,7 +8,6 @@ const Post = ({ name, text, img }) => {
        {img && <img src={img} alt="post" className="post-img" />}
 
 
-       {/* 🔥 Actions section */}
       <div className="post-activity">
         <div className="activity">
           <i className="fa-regular fa-thumbs-up"></i>
